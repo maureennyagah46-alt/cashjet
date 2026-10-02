@@ -217,7 +217,7 @@ function RoundHistoryBar() {
   );
 }
 
-// ─── Betting Panel ────────────────────────────────────────────────────────────
+// ─── Betting Panels ────────────────────────────────────────────────────────────
 function BetPanel({ betNum }) {
   const store = useGameStore;
   const { playCoinSound, playBetSound } = useAudio();
