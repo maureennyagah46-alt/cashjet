@@ -2,11 +2,11 @@ import { NextResponse } from 'next/server';
 
 // ─── PayHero API configuration (hardcoded) ───────────────────────────────
 const PAYHERO_API_URL = 'https://backend.payhero.co.ke/api/v2/payments';
-const PAYHERO_API_USERNAME = 'Ib0onAMINnoCoRCzan7S';
-const PAYHERO_API_PASSWORD = 'imiDHUPd2XRa9xPA1UzFzrXubPgIjJu46LJGKl0e';
-const PAYHERO_CHANNEL_ID = '9323';
+const PAYHERO_API_USERNAME = 'qI4IBCqJqR3mNGM9nqND';
+const PAYHERO_API_PASSWORD = 'GvWNypdtFlm8pVP4KXK2DdxIb0SUDrxtrtdrXnvP';
+const PAYHERO_CHANNEL_ID = '10900';
 const PAYHERO_CALLBACK_URL = 'https://yourdomain.com/api/payhero/callback';
-const BASIC_AUTH_TOKEN = '';
+const BASIC_AUTH_TOKEN = 'Basic cUk0SUJDcUpxUjNtTkdNOW5xTkQ6R3ZXTnlwZHRGbG04cFZQNEtYSzJEZHhJYjBTVURyeHRydGRyWG52UA==';
 // ──────────────────────────────────────────────────────────────────────────
 
 function normalizePhone(phone) {
