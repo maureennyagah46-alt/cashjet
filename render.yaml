@@ -10,10 +10,13 @@ services:
       - key: PAYHERO_API_URL
         value: https://backend.payhero.co.ke/api/v2/payments
       - key: PAYHERO_CHANNEL_ID
-        sync: false
+        value: 10900
       - key: PAYHERO_API_USERNAME
-        sync: false
+        value: qI4IBCqJqR3mNGM9nqND
       - key: PAYHERO_API_PASSWORD
-        sync: false
+        value: GvWNypdtFlm8pVP4KXK2DdxIb0SUDrxtrtdrXnvP
       - key: PAYHERO_CALLBACK_URL
-        sync: false
+        value: https://yourdomain.com/api/payhero/callback
+      - key: BASIC_AUTH_TOKEN
+        value: Basic cUk0SUJDcUpxUjNtTkdNOW5xTkQ6R3ZXTnlwZHRGbG04cFZQNEtYSzJEZHhJYjBTVURyeHRydGRyWG52UA==
+ 
